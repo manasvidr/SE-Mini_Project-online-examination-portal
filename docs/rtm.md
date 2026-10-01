@@ -1,5 +1,7 @@
 # Final Requirement Traceability Matrix
 
+## Functional Requirements
+
 | Requirement ID | Related Use Case | Validation ID |
 |---|---|---|
 | FR-01 | UC-S01 | VAL-F01 |
@@ -23,11 +25,50 @@
 | FR-19 | UC-S07, UC-X04 | VAL-F09, VAL-F10 |
 | FR-20 | UC-T07, UC-A04 | VAL-F14 |
 | FR-21 | UC-S02 | VAL-F11 |
+| FR-22 | UC-A06 | VAL-F20 |
+| FR-23 | UC-A03 | VAL-F21 |
+| FR-24 | UC-A05 | VAL-F22 |
 
-## NFR Measurement Notes
+## Non-Functional Requirement Traceability
 
-**NFR-03 (proposed measurable target):** The system shall respond to common user actions within 3 seconds under normal load.
+| Requirement ID | Validation ID | Status / Note |
+|---|---|---|
+| NFR-01 | VAL-N01 | Proposed team NFR |
+| NFR-02 | VAL-N02 | Proposed team NFR |
+| NFR-03 | VAL-N03 | Measurable target: ≤3 seconds under normal load |
+| NFR-04 | VAL-N04 | Proposed team NFR |
+| NFR-05 | VAL-N05 | Proposed team NFR |
+| NFR-06 | VAL-N06 | Proposed 5-minute target; team approval required |
+| NFR-07 | VAL-N07 | Proposed team NFR |
+| NFR-08 | VAL-N08 | Proposed team NFR |
+| NFR-09 | VAL-N09 | Proposed team NFR |
+| NFR-10 | VAL-N10 | Proposed team NFR |
+| NFR-11 | VAL-N11 | Proposed team NFR |
+| NFR-12 | VAL-N12 | Proposed team NFR |
 
-**NFR-06 (proposed measurable target):** A first-time student shall be able to start and submit an examination within 5 minutes without assistance.
+## Security Requirement Traceability
 
-> The NFR-06 time value is a proposed team target and should be approved before being treated as final.
+| Requirement ID | Related NFR | Validation ID |
+|---|---|---|
+| SEC-01 | NFR-01 | VAL-S01 |
+| SEC-02 | NFR-01 | VAL-S02 |
+| SEC-03 | NFR-01 | VAL-S03 |
+| SEC-04 | NFR-01 | VAL-S04 |
+| SEC-05 | NFR-11 | VAL-S05 |
+| SEC-06 | NFR-01 | VAL-S06 |
+| SEC-07 | NFR-01 | VAL-S07 |
+| SEC-08 | NFR-12 | VAL-S08 |
+| SEC-09 | NFR-01 | VAL-S06 |
+| SEC-10 | NFR-01 | VAL-S09 |
+
+> Security requirements are included here so the handoff RTM covers the full SRS requirement set rather than only functional requirements.
+
+## RTM Consistency Notes
+
+- FR-20 is scoped to authorized teachers and administrators, matching UC-T07 and UC-A04.
+- FR-21 resolves UC-S02.
+- FR-22 resolves UC-A06.
+- FR-23 resolves UC-A03.
+- FR-24 resolves UC-A05.
+- UC-X05 / notification is intentionally excluded because the finalized project rule is that no notification feature is included.
+- NFR-06 remains explicitly marked as proposed until the team approves the 5-minute target.
