@@ -21,5 +21,16 @@
 | FR-17 | The system shall calculate the examination score from the evaluated answers. |
 | FR-18 | The system shall securely store examination attempts and their submitted answers. |
 | FR-19 | The system shall automatically release examination results at the configured result-release time. |
-| FR-20 | The system shall allow authorized teachers to view examination reports. |
+| FR-20 | The system shall allow authorized teachers and administrators to view examination reports. |
 | FR-21 | The system shall display examinations that are currently available to the logged-in student according to the configured availability period. |
+| FR-22 | The system shall allow administrators to log in using valid credentials before accessing administrative functions. |
+| FR-23 | The system shall allow authorized administrators to manage approved system-level settings. |
+| FR-24 | The system shall allow authorized administrators to manage system access permissions according to defined roles. |
+
+## Status Notes
+- FR-01 through FR-24 are the finalized functional requirement set used by the Phase-1 team documents.
+- FR-21 resolves UC-S02 — View Available Examinations.
+- FR-22 resolves UC-A06 — Administrator Login.
+- FR-23 resolves UC-A03 — Manage System Settings.
+- FR-24 resolves UC-A05 — Manage Access.
+- No notification feature is included; therefore UC-X05 is not represented by a final functional requirement.
